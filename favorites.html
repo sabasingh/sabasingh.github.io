@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.teal-pink.min.css" />
+        
+        
+        <style>
+            
+        .demo-card-wide > .mdl-card__title {
+          color: #000;
+          height:177px;
+        }
+        
+        .demo-card-wide > mdl-card mdl-shadow--2dp {
+          color: #000;
+          width:177px;
+        }
+        
+        
+        .container{
+          width:624px;
+          margin: 0 auto;
+          margin-top: 80px;
+        }
+            
+        .row{
+          height: 260px;
+        }    
+            
+        .card{
+          cursor: pointer;
+          color: black;
+
+          background-size: cover;
+        }
+            
+        [class*='col-']{
+          width:208px;
+          padding-bottom: 70px; 
+        }
+            
+        .mdl-button{
+           min-width: 0px;
+           
+        }
+            
+        .material-icons{
+           margin-left: 15px; 
+        }
+
+        </style>
+    </head>
+    
+    
+    <body>
+<!--------------------nav---------------------------------->
+         <!-- Uses a header that scrolls with the text, rather than staying
+          locked at the top -->
+        <div class="mdl-layout mdl-js-layout">
+          <header class="mdl-layout__header mdl-layout__header--scroll">
+            <div class="mdl-layout__header-row">
+                <a href='index.html' class="introPage">
+                <!-- Title -->
+                <span class="mdl-layout-title">geekOut</span>
+              <!-- Add spacer, to align navigation to the right -->
+              </a>
+              <div class="mdl-layout-spacer"></div>
+            </div>
+          </header>
+          <div class="mdl-layout__drawer">
+              <a href='index.html' class="introPage">
+                <!-- Title -->
+                <span class="mdl-layout-title" style="padding-left: 35px;padding-top: 21px;font-size: xx-large;">geekOut</span>
+              <!-- Add spacer, to align navigation to the right -->
+              </a>
+            <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="favorites.html"><i class="mdl-icon-toggle__label material-icons">favorite</i>Favorites</a>
+              <a class="mdl-navigation__link" href="bookmarks.html"><i class="mdl-icon-toggle__label material-icons">bookmark</i>Bookmarked</a>
+
+            </nav>
+          </div>
+          <main class="mdl-layout__content">
+          <div class="page-content"><!-- Your content goes here -->
+            
+
+<!--------------------------grid system ------------------------->
+
+            <div class = "container">
+                <h3>Favorites</h3>
+              <div class="row">
+                <div class="col-xs-4">
+                    <div class = "card">    
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="
+    width: 177px;">
+                          <div class="mdl-card__title mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                            <h2 class="mdl-card__title-text">Number Theory </h2>
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                              <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-19">
+                              <input type="checkbox" id="icon-toggle-" class="mdl-icon-toggle__input" checked>
+                              <i class="mdl-icon-toggle__label material-icons">favorite</i>
+                            </label>
+                              
+                            <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-20">
+                            <input type="checkbox" id="icon-toggle-20" class="mdl-icon-toggle__input" checked>
+                            <i class="mdl-icon-toggle__label material-icons">bookmark</i>
+                            </label>
+                              
+                            <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-21">
+                            <input type="checkbox" id="icon-toggle-21" class="mdl-icon-toggle__input" checked>
+                            <i class="mdl-icon-toggle__label material-icons">share</i>
+                            </label>
+                          </div>
+                        </div>
+                      </div> 
+                </div>
+                <div class="col-xs-4">
+                    <div class = "card">    
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="
+    width: 177px;">
+                          <div class="mdl-card__title mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                            <h2 class="mdl-card__title-text">Fractions </h2>
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                              <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-22">
+                              <input type="checkbox" id="icon-toggle-22" class="mdl-icon-toggle__input" checked>
+                              <i class="mdl-icon-toggle__label material-icons">favorite</i>
+                            </label>
+                              
+                            <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-23">
+                            <input type="checkbox" id="icon-toggle-23" class="mdl-icon-toggle__input" checked>
+                            <i class="mdl-icon-toggle__label material-icons">bookmark</i>
+                            </label>
+                              
+                            <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-24">
+                            <input type="checkbox" id="icon-toggle-24" class="mdl-icon-toggle__input" checked>
+                            <i class="mdl-icon-toggle__label material-icons">share</i>
+                            </label>
+                          </div>
+                        </div>
+                      </div> 
+                </div>
+                <div class="col-xs-4">
+                    <div class = "card">    
+                        <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="
+    width: 177px;">
+                          <div class="mdl-card__title mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                            <h2 class="mdl-card__title-text">Logarithms </h2>
+                          </div>
+                          <div class="mdl-card__actions mdl-card--border">
+                              <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-25">
+                              <input type="checkbox" id="icon-toggle-25" class="mdl-icon-toggle__input" checked>
+                              <i class="mdl-icon-toggle__label material-icons">favorite</i>
+                            </label>
+                              
+                            <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-26">
+                            <input type="checkbox" id="icon-toggle-26" class="mdl-icon-toggle__input" checked>
+                            <i class="mdl-icon-toggle__label material-icons">bookmark</i>
+                            </label>
+                              
+                            <label class="mdl-icon-toggle mdl-js-icon-toggle" for="icon-toggle-27">
+                            <input type="checkbox" id="icon-toggle-27" class="mdl-icon-toggle__input" checked>
+                            <i class="mdl-icon-toggle__label material-icons">share</i>
+                            </label>
+                          </div>
+                        </div>
+                      </div> 
+                </div>
+              </div>
+        </div>
+        
+        
+        
+<!-- Always shows a header, even in smaller screens. -->
+<!--
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+          <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+    -->
+              <!-- Title -->
+    <!--              <span class="mdl-layout-title">Page Title</span>-->
+              <!-- Add spacer, to align navigation to the right -->
+    <!--              <div class="mdl-layout-spacer"></div>-->
+              <!-- Navigation. We hide it in small screens. -->
+    <!--
+            </div>
+          </header>
+          <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">Page Title</span>
+            <nav class="mdl-navigation">
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+              <a class="mdl-navigation__link" href="">Link</a>
+            </nav>
+          </div>
+         <main class="mdl-layout__content">
+    <!-- Your content goes here --> 
+    <!--</main>-->
+    
+        
+        
+        
+         <!--Card -->
+        <!-- Wide card with share menu button -->
+
+<!--
+        </div>        
+        <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text mdl-js-ripple-effect">Geometry and Angles </h2>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                <img src = "assets/like%20icon.png">
+            </a>
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                <img src = "assets/bookmark.png">
+            </a>
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                <img src = "assets/share.png">
+            </a>
+          </div>
+          <div class="mdl-card__menu">
+            <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+              <i class="material-icons">share</i>
+            </button>
+          </div>
+        </div>
+-->
+
+        
+        
+        
+        
+<!--
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            Button
+          </button>
+             Colored FAB button 
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+            <i class="material-icons">add</i>
+-->           
+                </div>
+          </main>
+        </div>
+    </body>
+</html>
